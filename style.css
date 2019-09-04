@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 36px;
+    color: #000;
+    background: white;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: right;
+    color: #000;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color:#FF00F7;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-bio,
+.contact,
+.bio-image {
+    float: left;
+}
+
+.main-bio {
+    width: 70%;
+}
+
+.contact {
+    width: 30%;
+}
+
+.bio-image {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    border-radius: 50%;
+}
